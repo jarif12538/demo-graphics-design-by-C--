@@ -66,31 +66,6 @@ void bresenhams(int x1, int x2, int y1, int y2) {
         }
         glEnd();
     }
-    else if (m >= 1 && m <= 0) {
-        pk = (2 * ydiff) - xdiff;
-        x = x1, y = y1;
-
-
-        glBegin(GL_POINTS);
-
-
-        for (int i = 0; i < xdiff; i++)
-        {
-            glVertex2f(x, y);
-
-
-            if (pk < 0)
-            {
-                x++;
-                pk = pk + (2 * ydiff);
-            }
-            else {
-                x++, y--;
-                pk = pk + (2 * ydiff) - (2 * xdiff);
-            }
-        }
-        glEnd();
-    }
     else {
         pk = (2 * xdiff) - ydiff;
         x = x1, y = y1;
