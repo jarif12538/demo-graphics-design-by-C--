@@ -138,7 +138,7 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitWindowSize(500, 500);
     glutInitWindowPosition(50, 50);
-    glutCreateWindow("BRESENHAM");
+    glutCreateWindow("1854 - Bresenham's line algorithm");
     glutDisplayFunc(display);
     glutMainLoop();
 
