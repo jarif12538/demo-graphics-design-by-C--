@@ -571,7 +571,7 @@ int main(int argc, char** argv)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(W, H);
     glutInitWindowPosition(100, 80);
-    glutCreateWindow("City Traffic Scene");
+    glutCreateWindow("City Traffic or Street Scene");
 
     // OpenGL state
     glPointSize(2.0f);
