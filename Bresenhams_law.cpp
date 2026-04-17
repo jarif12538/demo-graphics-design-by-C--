@@ -3,7 +3,6 @@
 #include <math.h>
 
 
-
 void bresenhams(int x1, int x2, int y1, int y2) {
     int pk, x, y;
     float m = float(y2 - y1) / float(x2 - x1);
